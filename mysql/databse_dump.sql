@@ -1508,7 +1508,7 @@ CREATE TABLE `msyscompacterror` (
 
 LOCK TABLES `msyscompacterror` WRITE;
 /*!40000 ALTER TABLE `msyscompacterror` DISABLE KEYS */;
-INSERT INTO `msyscompacterror` VALUES (-1206,'* TRIAL * TRIAL * TRIAL * TRIAL * TRIAL * TRIAL * TRIAL * TRIAL * TR',_binary '.�\0','* TRIAL * T'),(-1206,'* TRIAL * TRIAL * TRIAL * TRIAL * TRIAL * TRIAL * TRIAL * TRIAL * TR',_binary '\0\�\0','MSysNameMap'),(-1206,'Could not find field \'Description\'.',NULL,'f_invoice'),(-1206,'* TRIAL * TRIAL * TRIAL * TRIAL * T',NULL,'subf_INV'),(-1206,'* TRIAL * TRIAL * TRIAL * TRIAL * T',NULL,'subf_timesheet');
+INSERT INTO `msyscompacterror` VALUES (-1206,'* TRIAL * TRIAL * TRIAL * TRIAL * TRIAL * TRIAL * TRIAL * TRIAL * TR',_binary '.±\0','* TRIAL * T'),(-1206,'* TRIAL * TRIAL * TRIAL * TRIAL * TRIAL * TRIAL * TRIAL * TRIAL * TR',_binary '\0\ä\0','MSysNameMap'),(-1206,'Could not find field \'Description\'.',NULL,'f_invoice'),(-1206,'* TRIAL * TRIAL * TRIAL * TRIAL * T',NULL,'subf_INV'),(-1206,'* TRIAL * TRIAL * TRIAL * TRIAL * T',NULL,'subf_timesheet');
 /*!40000 ALTER TABLE `msyscompacterror` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1831,9 +1831,9 @@ CREATE TABLE `tempimporttable` (
   `gross` decimal(19,2) DEFAULT NULL,
   `employer taxes total` decimal(19,2) DEFAULT NULL,
   `benefit401(k)` decimal(19,2) DEFAULT NULL,
-  `└ er match` decimal(19,2) DEFAULT NULL,
+  `â er match` decimal(19,2) DEFAULT NULL,
   `benefitmedical` decimal(19,2) DEFAULT NULL,
-  `└ er contr` decimal(19,2) DEFAULT NULL,
+  `â er contr` decimal(19,2) DEFAULT NULL,
   `cash advance` decimal(19,2) DEFAULT NULL,
   `401(k)` decimal(19,2) DEFAULT NULL,
   `medical` decimal(19,2) DEFAULT NULL,
